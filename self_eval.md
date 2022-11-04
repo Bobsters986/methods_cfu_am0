@@ -5,4 +5,4 @@
 ### How confident do you feel writing simple methods of your own?
 - I feel good about writing simple methods
 ### What questions do you have about methods, and what they are capable of? (ask a question!!!)
-- I'm unsure if I completed Question 4 in final_practice.rb properly. How do you take 3 strings and combine them into one string with spaces separating the words? Any guidance is greatly appreciated!
+- I'm unsure if I completed Question 4 in final_practice.rb properly. When asked to take in 3 strings, is using + in my return value the proper way to do this?
