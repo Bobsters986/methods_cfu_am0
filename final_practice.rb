@@ -26,14 +26,14 @@ def custom_greeting(name)
 
 #3: Write a method named square that takes in one number, and returns the square of that number
 
-def square(num1, num2)
-    num1**num2
-  end
-  
-  p square(4, 2)
+def square(num)
+  Math.sqrt(num)
+end
 
-# What is the return value of your method? num1**num2
-# How many arguments did you pass your method? 2
+p square(4)
+
+# What is the return value of your method? Math.sqrt(num)
+# How many arguments did you pass your method? one
 # What data type was your argument(s)? interger
 
 
@@ -42,11 +42,11 @@ def square(num1, num2)
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
 def greet_person(first, mid, last)
-    "Hello #{first + mid + last}"
-    
-  end
+  "Hello #{first + mid + last}"
   
-  p greet_person("Robert", "Anthony", "Luly")
+end
+
+p greet_person("Robert ", "Anthony ", "Luly")
 
 # What is the return value of your method? "Hello #{first + mid + last}"
 # How many arguments did you pass your method? 3
